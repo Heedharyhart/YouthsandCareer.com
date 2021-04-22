@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
+.EventsImage {
+  height: 93vh;
+  background-image: linear-gradient(
+      rgba(69, 113, 218, 0.5),
+      rgba(69, 113, 218, 0.5)
+    ),
+    url("./EventsImg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+  margin-bottom: 50px;
+}
+.EventsImage p {
+  text-align: left !important;
+  font-size: 40px;
+  width: 60%;
+  color: #fff;
+  margin: auto;
+}
+#EventsHead {
+  font-family: "Rubik";
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 40px;
+  height: 12vh;
+  padding-top: 2.2vh;
+  color: white;
+  background-color: #4571da;
+}
+
+.styleEvent {
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #4571da;
+  margin-bottom: 50px;
+  height: 100px;
+}
+#date {
+  font-size: 20px;
+  background-color: white;
+  padding-top: 10px;
+  color: #4571da;
+}
+#subject {
+  background-color: #4571da;
+  padding-top: 30px;
+  color: white;
+  position: relative;
+}
+#EventButton {
+  background-color: white;
+  font-family: "Rubik";
+  font-weight: 700;
+  color: #4571da;
+  float: right;
+}
+
+@media (max-width: 1200px) {
+  .EventsImage {
+    background-size: cover;
+    background-position: right;
+  }
+  .EventsImage p {
+    font-size: calc(1.455rem + 2.46vw);
+  }
+  #EventsHead,
+  .styleEvent,
+  #date {
+    font-size: calc(1rem + 0.453vw) !important;
+  }
+  #date {
+    width: 100%;
+  }
+}

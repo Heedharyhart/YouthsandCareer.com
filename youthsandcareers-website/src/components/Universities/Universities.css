@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.universities {
+  padding: 20px;
+}
+
+.universities .container p {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(69, 113, 218, 1);
+}
+.universities .container h1 {
+  text-align: center;
+  color: rgba(10, 22, 80, 1);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.universities .container a {
+  text-decoration: none;
+  color: #4b4a4a;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: italic;
+}

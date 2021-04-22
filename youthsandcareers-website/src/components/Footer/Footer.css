@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  background-color: rgba(10, 22, 80, 1);
+  color: #fff;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+
+.footer-links-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+
+.footer-links-1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-links-1 a:hover {
+  text-decoration: underline;
+}
+
+.footer-b {
+  width: 170px;
+  margin: 20px 40px 20px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  padding-bottom: 2px;
+}
+
+.footer-b p {
+  color: rgba(10, 22, 80, 1) !important;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.footer-c {
+  display: flex;
+  justify-content: space-around;
+  color: rgba(135, 135, 135, 1);
+}
+
+.footer-b a {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.footer-b a:hover {
+  font-size: 22px;
+}
+
+.footer-c .footer-c-11 {
+  font-size: 20px;
+  padding-right: 8px;
+}
+
+.footer-c-2 a {
+  color: rgba(135, 135, 135, 1);
+  text-decoration: none;
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+.footer-c-2 a:hover {
+  font-size: 22px;
+  color: #fff;
+}
+
+.footer-c-3 a {
+  color: rgba(135, 135, 135, 1);
+  padding-right: 15px;
+  text-decoration: none;
+  padding-left: 7px;
+}
+
+.footer-c-3 a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-c-3 .a1 {
+  border-right: 1px solid rgba(135, 135, 135, 1);
+}
