@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&family=Open+Sans:wght@300;400;600&display=swap");
+
+.signup {
+  display: block;
+  width: 100%;
+  max-width: 40rem;
+  margin: 4rem auto 6rem;
+  border: 5px solid #f6f6f6;
+}
+
+.wrap {
+  padding: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1;
+
+  font-weight: 900;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding:10px 0px 10px 40px ;
+  margin: 48px auto 0;
+  padding-top: 15px;
+}
+
+.link {
+  margin-top: 45px;
+  margin-left: 228px;
+  padding-left: 35px;
+}
+
+.sign {
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Montserrat", "Open sans";
+  color: black;
+  font-weight: 700;
+  border-top: 2px solid black;
+  padding-right: 10px;
+}
+.login {
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Montserrat", "Open sans";
+  color: black;
+  font-weight: 700;
+  border-top: 2px solid black;
+  padding-right: 5px;
+}
+
+.sign:hover,
+.login:hover {
+  cursor: pointer;
+  color: #4571da;
+  border-top: 2px solid #4571da;
+  text-decoration: none;
+}
+
+.sign:active,
+.login:active {
+  color: #4571da;
+  border-top: 2px solid #4571da;
+}
+.sign:visited {
+  color: #4571da;
+  border-top: 2px solid #4571da;
+}
+
+.formWrap {
+  margin: 3rem auto 0;
+}
+
+::placeholder {
+  font-size: 12px;
+  padding-left: 50px;
+  font-family: "Montserrat", "Open sans";
+}
+
+.form-p {
+  margin: 16px 0px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Montserrat", "Open sans";
+}
+
+.log {
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", "Open sans";
+  text-align: center;
+  margin-top: -12px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.or::before,
+.or::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #000;
+}
+.or::before {
+  margin-left: 80px;
+  margin-right: 18px;
+}
+.or::after {
+  margin-right: 60px;
+  margin-left: 18px;
+}
+
+.foot {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Montserrat", "Open sans";
+  letter-spacing: 0.1px;
+}
+.social-g {
+  margin-left: 68px;
+  padding-left: 25px;
+}
+.social-g a {
+  cursor: pointer;
+}
+.img {
+  margin: 5px 40px 5px 180px;
+}
+.img1 {
+  margin: 5px 100px 5px 0px;
+}

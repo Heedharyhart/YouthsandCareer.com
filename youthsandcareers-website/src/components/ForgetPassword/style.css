@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&family=Open+Sans:wght@300;400;600&display=swap");
+
+
+.reset {
+  display: block;
+  width: 90%;
+  max-width: 40rem;
+  margin: 8rem auto 6rem;
+  border: 5px solid #f6f6f6;
+}
+
+.wrap {
+  padding: 10px;
+}
+
+h2 {
+    font-family: "Montserrat", "Open sans";
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 900;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding:10px 0px 10px 40px ;
+  margin: 48px auto 0;
+  padding-top: 15px;
+}
+
+h4 {
+  font-size: 18px;
+  
+  width: 70%;
+  line-height: 1;
+  text-align: center;
+  display: block;
+  padding:10px 40px 10px 40px ;
+  margin: 10px  auto 0;
+  
+}
+
+.material-icons{
+    font-size: 65px;
+    margin: 5px 145px 0px 275px;
+}
+
