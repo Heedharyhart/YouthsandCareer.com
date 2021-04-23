@@ -1,15 +1,11 @@
-import "../Universities/Universities.css";
+
+import React from 'react'
+import "./style.css";
 
 
-
-
-
-
-
-const Universities = () => {
-    return ( 
-          <div className="universities">
-               <div className="container">
+export default function Universities() {
+  return (
+    <div className="container">
       <div className="university-nav">
         <div>
           <h1>Universities</h1>
@@ -126,9 +122,13 @@ const Universities = () => {
 
     </div>
           </div>
-   
-
-     );
+      );
 }
  
 export default Universities;
+
+
+
+
+ 
+

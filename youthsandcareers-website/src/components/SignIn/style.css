@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&family=Open+Sans:wght@300;400;600&display=swap");
+
+
+.signin {
+  display: block;
+  width: 90%;
+  max-width: 40rem;
+  margin: 8rem auto 6rem;
+  border: 5px solid #f6f6f6;
+}
+
+.wrap {
+  padding: 10px;
+}
+
+.form-check{
+  margin-left: 70px;
+  margin-top: -20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.forget{
+  float: right;
+  margin-top: -28px;
+  margin-right: 70px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.forget:hover{
+  text-decoration: none;
+  color: #111d5e
+;
+}
+

@@ -1,4 +1,9 @@
-import React from "react";
+
+import React, {Component} from "react";
+import {Switch, Route } from 'react-router-dom';
+import Registration from './Pages/Registration';
+import Login from './Pages/Login'
+import ResetPassword from "./Pages/ResetPassword";
 import Modal from "./components/Modal/Modal";
 import Navbar from "./components/Navbar/Navbar";
 import MainSection from "./components/MainSection/MainSection";
@@ -10,17 +15,43 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import Courses from "./components/Courses/Courses";
 import OurServices from "./components/OurServices/OurServices";
 
+const initialState = {
+  currentUser: null
+};
 
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
+class App extends Component {
 
-function App() {
-  return <div>
-    <Router>
+  constructor(props){
+    super(props)
+    this.state = {...initialState};
+  }
+
+  componentDidMount(){
     
-    <Navbar />
+  }
 
-    <Switch>
+  componentWillUnmount(){
+
+  }
+
+
+
+  render() {
+  return (
+    <div>
+    <Navbar />
+      <Switch>
+        <Route exact path="/signup" render={() => (
+          <Registration/>
+        )}/>
+        <Route exact path="/login" render={() => (
+          <Login/>
+        )}/>
+               <Route exact path="/forgetPassword" render={() => (
+          <ResetPassword/>
+           )}/>
+ 
     <Route exact path="/">
     <Modal></Modal>
     <MainSection></MainSection>
@@ -51,13 +82,19 @@ function App() {
     <OurServices></OurServices>
     </Route>
 
-    </Switch>
-    
-    
-    <Footer></Footer>
-    </Router>
-    
-  </div>;
-}
+      </Switch>
+     <Footer></Footer>
+    </div>
+  
+  );
+  }
+
+
+
+
+
+
+
+
 
 export default App;
