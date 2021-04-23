@@ -1,13 +1,14 @@
 
 import React, {Component} from "react";
 import {Switch, Route } from 'react-router-dom';
+import HomePage from './Pages/Homepage'
 import Registration from './Pages/Registration';
 import Login from './Pages/Login'
 import ResetPassword from "./Pages/ResetPassword";
-import Modal from "./components/Modal/Modal";
+//import Modal from "./components/Modal/Modal";
 import Navbar from "./components/Navbar/Navbar";
-import MainSection from "./components/MainSection/MainSection";
-import Footer from "./components/Footer/Footer";
+//import MainSection from "./components/MainSection/MainSection";
+//import Footer from "./components/Footer/Footer";
 import WorkWithUs from "./components/WorkWithUs/WorkWithUs";
 import Events from "./components/GlobalEvent/GlobalEvent";
 import Universities from "./components/Universities/Universities";
@@ -20,8 +21,7 @@ const initialState = {
 };
 
 
-class App extends Component {
-
+class App extends Component { 
   constructor(props){
     super(props)
     this.state = {...initialState};
@@ -35,13 +35,18 @@ class App extends Component {
 
   }
 
-
-
   render() {
-  return (
+    return(
+      <>
     <div>
-    <Navbar />
+      <div>
+      <Navbar />
+      </div>
+      <div>
       <Switch>
+        <Route exact path="/" render={() => (
+          <HomePage/>
+        )}/>
         <Route exact path="/signup" render={() => (
           <Registration/>
         )}/>
@@ -52,49 +57,46 @@ class App extends Component {
           <ResetPassword/>
            )}/>
  
-    <Route exact path="/">
-    <Modal></Modal>
-    <MainSection></MainSection>
-    </Route>
+    
 
-    <Route path="/WorkWithUs">
-    <WorkWithUs></WorkWithUs>
-    </Route>
+    <Route path="/WorkWithUs" render={() => (
+            <WorkWithUs/>
+           )}/>
 
-    <Route path="/GlobalEvent">
-    <Events></Events>
-    </Route>
+    <Route path="/GlobalEvent" render={() => (
+            <Events/>
+           )}/>
 
-    <Route path="/Universities">
-    <Universities></Universities>
-    </Route>
+    <Route path="/Universities" render={() => (
+            <Universities/>
+           )}/>
 
-    <Route path="/AboutUs">
-    <AboutUs></AboutUs>
-    </Route>
+    <Route path="/AboutUs" render={() => (
+           <AboutUs/>
+           )}/>
 
     
-    <Route path="/Courses">
-    <Courses></Courses>
-    </Route>
+    <Route path="/Courses"render={() => (
+           <Courses/>
+           )}/>
 
-    <Route path="/OurServices">
-    <OurServices></OurServices>
-    </Route>
+    <Route path="/OurServices"
+      render={() => (
+           <OurServices/>
+           )}/>
 
       </Switch>
-     <Footer></Footer>
+      </div>
+     
     </div>
-  
-  );
+    </>
+    );
   }
-
-
-
-
-
-
-
-
+}
 
 export default App;
+
+  
+
+
+

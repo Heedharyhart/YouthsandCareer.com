@@ -121,11 +121,11 @@ export default function Universities() {
       </div>
 
     </div>
-          </div>
+        
       );
 }
  
-export default Universities;
+
 
 
 

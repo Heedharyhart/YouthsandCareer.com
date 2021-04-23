@@ -26,8 +26,8 @@ const MainSection = () => {
                 <h2 className="text-primary">We Help You Make Better Informed Career Decisions</h2>
                 <p>With our Pool of resources, Expertise and Compassion we help students make informed career decisions towards studying their dream courses in their most preferred institution</p>
                 <div className="my-4">
-                <a className="btn btn-primary" href="#" role="button">Get Started</a>
-                <a className="btn btn-outline-primary text-light ms-3" href="#" role="button">Login</a>
+                <a className="btn btn-primary" href="/signup" role="button">Get Started</a>
+                <a className="btn btn-outline-primary text-light ms-3" href="/login" role="button">Login</a>
                 </div>
                 </div>
             </header>

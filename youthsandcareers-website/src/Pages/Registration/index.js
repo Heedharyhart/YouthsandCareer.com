@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Signup from './../../components/SignUp'
+import ReactDOM from "react-dom";
 
 import './style.css';
 

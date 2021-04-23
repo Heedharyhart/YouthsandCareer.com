@@ -1,3 +1,4 @@
+import React, { Component} from 'react'
 import "../Footer/Footer.css";
 import { Link } from 'react-router-dom';
 
@@ -11,7 +12,9 @@ import { FaRegCommentAlt } from "react-icons/fa";
 
 
 
-const Footer = () => {
+
+class Footer extends Component {
+    render(){
     return ( 
         <div>
             <footer>
@@ -65,5 +68,5 @@ const Footer = () => {
         </div>
          );
 }
- 
-export default Footer;
+};
+ export default Footer
