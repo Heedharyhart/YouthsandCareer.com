@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { faEnvelope, faLock } from "@fortawesome/free-solid-svg-icons";
-import "./style.css";
+import "./signin.css";
 import Buttons from "./../Forms/Button";
 import FormInput from "./../Forms/FormInput";
 
