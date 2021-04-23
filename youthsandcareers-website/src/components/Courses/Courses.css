@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&family=Roboto+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+.wrapper {
+  position: relative;
+}
+.wrapper .jumbo {
+  background-color: #4571da;
+  opacity: 0.5;
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.wrapper .jumbo p {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  font-weight: 500;
+  letter-spacing: 2;
+}
+.wrapper .select {
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.wrapper .test {
+  background-color: #4571da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  width: 100vw;
+  height: 200px;
+  color: #fff;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.wrapper .test p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.wrapper .test button {
+  border: 1px solid #fff;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.wrapper .test button:hover {
+  color: #4571da;
+  background-color: #e1e1e1;
+}
+.wrapper .down {
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  flex-direction: column;
+  text-align: center;
+}
+.wrapper .down p {
+  text-transform: capitalize;
+  /* word-spacing: 5px; */
+  line-height: 2;
+  color: #000;
+  letter-spacing: 2;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 567px) {
+  .wrapper .jumbo {
+    height: 200px;
+    padding: 10px;
+  }
+  .wrapper .jumbo p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .wrapper .test h3 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .wrapper .test p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .wrapper .test button {
+    padding: 7px;
+    font-size: 0.8rem;
+  }
+  .wrapper .down p {
+    font-size: 1rem;
+  }
+}

@@ -1,3 +1,4 @@
+
 import React from 'react'
 import "./style.css";
 
@@ -120,15 +121,14 @@ export default function Universities() {
       </div>
 
     </div>
-
-
-
-
-  )
+          </div>
+      );
 }
+ 
+export default Universities;
 
 
 
 
-
+ 
 

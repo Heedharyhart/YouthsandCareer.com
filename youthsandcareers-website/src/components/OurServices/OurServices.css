@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
+.ServiceHead {
+  text-align: center;
+  line-height: 144px;
+  margin-bottom: 30px;
+}
+.ServiceHead h2 {
+  font-family: "Montserrat";
+  font-size: 96px;
+  font-weight: 600;
+  color: #0a1650;
+  text-shadow: -1px 3px 0px rgba(0, 0, 0, 0.17);
+}
+.ServiceHead h1 {
+  font-family: "Rubik";
+  font-size: 76px;
+  font-weight: 700;
+  color: #fff;
+  background-image: linear-gradient(
+      rgba(69, 113, 218, 0.5),
+      rgba(69, 113, 218, 0.5)
+    ),
+    url(./images/ServicesBG.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4em 2em;
+  margin-bottom: 100px;
+}
+#bodySection {
+  margin: 0 1em;
+}
+#BodyText {
+  font-size: 31px;
+  font-family: "Rubik";
+}
+#BodyLogo {
+  width: 100%;
+  height: auto;
+}
+#LowerSection {
+  background-color: #0a1650;
+  color: #fff;
+  padding: 1em 3em;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  border-radius: 50px 0 0 50px;
+  font-family: "Rubik";
+}
+.Topic {
+  font-weight: 600;
+  font-size: 31px;
+  padding: 1.5em 0 1em 0;
+  text-align: center;
+}
+
+#logo {
+  font-size: 100px;
+  margin: 0 0 0.2em 0;
+}
+#images {
+  height: 100px;
+  width: auto;
+  /*padding: 1em;*/
+}
+#LowerSection p {
+  padding-top: 1em;
+  text-align: left;
+  font-size: 25px;
+}
+@media (max-width: 1200px) {
+  .ServiceHead h2 {
+    font-size: calc(2rem + 2.46vw);
+  }
+  .ServiceHead h1 {
+    font-size: calc(1.4rem + 2.46vw);
+  }
+  #BodyText,
+  .Topic {
+    font-size: calc(1rem + 0.453vw);
+  }
+  #LowerSection p {
+    font-size: calc(0.7rem + 0.453vw);
+  }
+}
+@media (max-width: 576px) {
+  .Logo {
+    padding-top: 0;
+  }
+  #LowerSection {
+    padding: 1em 1em;
+    border-radius: 70px 0 0 70px;
+  }
+  .Topic,
+  #LowerSection p,
+  #logo {
+    text-align: center;
+  }
+  #logo {
+    font-size: 35px;
+  }
+  #images {
+    display: block;
+    margin: auto;
+    padding: 0 !important;
+    height: 35px !important;
+    width: auto;
+  }
+} ;
