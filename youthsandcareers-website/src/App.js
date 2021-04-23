@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, {Component} from "react";
 import {Switch, Route } from 'react-router-dom';
 
@@ -45,6 +46,18 @@ class App extends Component {
   
   );
   }
+=======
+import React from "react";
+import Universities from "./components/Universities/Universities"
+
+function App() {
+  return <div>
+
+    <Universities />
+
+  </div>;
+
+>>>>>>> ea89675110d47ad70f68b08f33c381f947ea96b9
 }
 
 export default App;

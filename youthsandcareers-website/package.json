@@ -6,9 +6,13 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+<<<<<<< HEAD
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "create-react-app": "^4.0.3",
+=======
+    "bootstrap": "^5.0.0-beta3",
+>>>>>>> ea89675110d47ad70f68b08f33c381f947ea96b9
     "react": "^17.0.2",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
